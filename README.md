@@ -21,9 +21,9 @@ The analysis utilizes a dataset of Chicago public high schools, focusing on acad
 ## Methodology
 
 ### 1. Data Cleaning
-* **Filtering:** Focused only on high schools (`'Elementary, Middle, or High School' == 'HS'`).
+* **Filtering:** Focused only on high schools (`'Elementary, Middle, or High School' == 'HS'`). There were 93 high schools. 
 * **Variable Selection:** Selected 9th Grade EXPLORE, 10th Grade PLAN, 11th Grade ACT, and College Enrollment Rate.
-* **Handling Missing Values:** Replaced 'NDA' strings with `NaN` and dropped rows with missing data.
+* **Handling Missing Values:** Replaced 'NDA' strings with `NaN` and dropped rows with missing data. 17 schools were dropped due to missing data. 
 * **Data Typing:** Converted data types to `float` for numerical analysis.
 
 ### 2. Regression Analysis
