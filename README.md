@@ -10,13 +10,13 @@ The goal of this project is to determine how early standardized test scores corr
 ## Data Source
 The analysis utilizes a dataset of Chicago public high schools, focusing on academic performance metrics from `Chicago_data.csv`.
 
-## Prerequisites
-To run this analysis, you will need the following Python libraries:
-* `pandas`
-* `numpy`
-* `matplotlib`
-* `seaborn`
-* `scikit-learn`
+## Tech Stack
+* Python
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
 
 ## Methodology
 
@@ -37,10 +37,14 @@ Visualized the bivariate relationship between each test score and the college en
 ## Data Insights (Descriptive Statistics)
 Based on the analysis of **76 schools**:
 * **Average Enrollment:** The average college enrollment rate is **56.9%**.
-* **Average Scores:** Average scores for the assessments are: EXPLORE (9th grade): **14.07**, PLAN (10th grade): **15.09**, and ACT (11th grade): **16.82**
+* **Average Scores of the Assessments**
+  * EXPLORE (9th grade): **14.07**
+  * PLAN (10th grade): **15.09**
+  * ACT (11th grade): **16.82**
 * **Variability:** The 11th-grade ACT scores show the highest standard deviation (**3.19**), indicating greater disparity in performance among schools by junior year compared to 9th grade (**2.44**).
 
-![Descriptive Statistics Table](descriptive%20analysis.png)
+![Descriptive Statistics Table](descriptive_analysis.png)
+
 
 ### Assessment Benchmarks
 For context, these assessments have the following maximum possible scores:
@@ -52,4 +56,4 @@ For context, these assessments have the following maximum possible scores:
 * **Model Accuracy ($R^2$):** The regression model achieved an R-square of **0.67**, indicating that 67% of the variance in college enrollment rates can be explained by these test scores.
 * **Trend Analysis:** The scatter plots show a strong positive relationship between test scores and enrollment rates across all three grade levels.
 
-![Correlation between Academic Score and College Enrollment: 9th Grade](9th%20grade.png)
+![Correlation between Academic Score and College Enrollment: 9th Grade](9th.png)
