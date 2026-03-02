@@ -8,7 +8,8 @@ The goal of this project is to determine how early standardized test scores corr
 
 
 ## Data Source
-The analysis utilizes a dataset of Chicago public high schools, focusing on academic performance metrics from `Chicago_data.csv`.
+The analysis utilizes a dataset of Chicago Public Schools, focusing on academic performance metrics from Chicago Data Portal: bit.ly/3MStem4
+
 
 ## Tech Stack
 * Python
