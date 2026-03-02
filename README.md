@@ -43,8 +43,7 @@ Based on the analysis of **76 schools**:
   * ACT (11th grade): **16.82**
 * **Variability:** The 11th-grade ACT scores show the highest standard deviation (**3.19**), indicating greater disparity in performance among schools by junior year compared to 9th grade (**2.44**).
 
-![Descriptive Statistics Table](descriptive_analysis.png)
-
+![Alt Text](images/descriptive_analysis.png)
 
 ### Assessment Benchmarks
 For context, these assessments have the following maximum possible scores:
@@ -56,4 +55,4 @@ For context, these assessments have the following maximum possible scores:
 * **Model Accuracy ($R^2$):** The regression model achieved an R-square of **0.67**, indicating that 67% of the variance in college enrollment rates can be explained by these test scores.
 * **Trend Analysis:** The scatter plots show a strong positive relationship between test scores and enrollment rates across all three grade levels.
 
-![Correlation between Academic Score and College Enrollment: 9th Grade](9th.png)
+
