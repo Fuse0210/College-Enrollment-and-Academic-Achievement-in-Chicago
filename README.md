@@ -53,7 +53,7 @@ For context, these assessments have the following maximum possible scores:
 * **ACT (11th Grade):** Maximum score of **36**.
 
 ## Key Findings
-* **Model Accuracy ($R^2$):** The regression model achieved an R-square of **0.67**, indicating that 67% of the variance in college enrollment rates can be explained by these test scores.
+* **Model Accuracy ($R^2$):** The regression model achieved an R-square of **0.67**, indicating that **67% of the variance in college enrollment rates can be explained by these test scores.**
 * **Trend Analysis:** The scatter plots show a strong positive relationship between test scores and enrollment rates across all three grade levels.
 
 ![9th Grade EXPLORE vs College Enrollment](images/9th.png)
